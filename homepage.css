@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 *{
     margin: 0;
 }
@@ -191,15 +192,23 @@
     width: 400px;
     opacity: 1;
 }
+.swiper{
+    padding-bottom:50px;
+}
+.swiper-pagination{
+    position:relative;
+    top:10px!important;
+}
 .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     text-align: center;
     line-height: 20px;
     font-size: 12px;
     color: white;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border:2px solid #007aff;
   }
 
   .swiper-pagination-bullet-active {
@@ -282,6 +291,72 @@
       font-family:baloo 2;
       color:hsl(197, 10%, 87%);;
   }
+  .image-4{
+      width:260px;
+      height:180px;
+      object-fit: cover;
+  }
+  .paragraph-4{
+      font-family:noto sans;
+      font-size:20px;
+      color:hsl(230, 69%, 10%);
+  }
+  .btn-4{
+      background-color: transparent;
+      border: 2px solid hsl(207,64%,48%);
+      font-size: 15px;
+      font-weight: 500;
+      padding:7px;
+      color:hsl(230, 69%, 10%);
+      transition:1s ease;
+}
+.btn-4:hover{
+    background-color: hsl(207,64%,48%);
+    color:white;
+}
+.btn-5{
+    background-color: hsl(207,64%,48%);
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding:7px; 
+    color:white;
+    margin-left: 15px;
+    transition: 1s ease;
+    border: 2px solid hsl(207,64%,48%);
+}
+
+@media only screen and (min-width:1800px) and (max-width:3000px){
+    .move-1{
+        position:relative;
+        left:650px;
+    }
+    .footer-title{
+        position:relative;
+        top:35px;
+    }
+    .paragraph-footer{
+        position: relative;
+        bottom:8px;
+    }
+    .email{
+        position:relative;
+        bottom:15px;
+    }
+    .description{
+        text-align:start;
+    }
+    .image-4{
+        position:relative;
+        left: 40px;
+        width: 450px;
+        height:250px;
+    }
+    .swiper-pagination{
+        position:relative;
+        top:30px!important;
+    }
+}
 @media only screen and (min-width:1200px) and (max-width:1440px){
     .image-3{
         width: 1400px;
@@ -326,6 +401,15 @@
     #prodca{
         position:relative;
         right:155px;
+    }
+    .description{
+        text-align:start;
+    }
+    .image-4{
+        position:relative;
+        left: 40px;
+        width: 450px;
+        height:250px;
     }
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
@@ -372,6 +456,15 @@
         position:relative;
         right:90px;
     }
+    .description{
+        text-align:start;
+    }
+    .image-4{
+        position:relative;
+        left: 20px;
+        width: 350px;
+        height:220px;
+    }
 }
 @media only screen and (min-width:767px) and (max-width:769px){
     .btn-1{
@@ -401,6 +494,15 @@
     #prodca{
         position:relative;
         right:15px;
+    }
+    .description{
+        text-align:start;
+    }
+    .image-4{
+        position:relative;
+        right:5px;
+        width: 330px;
+        height:200px;
     }
 }
 @media only screen and (min-width:539px) and (max-width:540px) {
@@ -463,6 +565,11 @@
         position:relative;
         right:65px;
     }
+    .description{
+        margin-top:30px;
+        text-align: start;
+    }
+    
 }
 @media only screen and (min-width:319px) and (max-width:321px){
     .section-1 h1{
@@ -488,5 +595,9 @@
     .move-2{
         position:relative;
         left:10px;
+    }
+    .description{
+        margin-top:30px;
+        text-align: start;
     }
 }

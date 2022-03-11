@@ -8,12 +8,6 @@ gsap.from(".title",{
         start:200,
     },
 })
-gsap.from(".description",{
-    opacity:0,
-    duration:2,
-    y:100,
-    scrollTrigger: ".description"
-})
 gsap.from(".image-1",{
     opacity:0,
     duration:2,
@@ -88,4 +82,22 @@ gsap.from(".animate",{
     duration:2,
     y:100,
     scrollTrigger: ".animate",
+})
+gsap.from(".paragraph-footer2",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger: ".paragraph-footer2",
+})
+gsap.from(".media",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger: ".media",
+})
+gsap.from(".swiper",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger: ".swiper",
 })
