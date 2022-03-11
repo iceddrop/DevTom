@@ -8,6 +8,12 @@ gsap.from(".title",{
         start:200,
     },
 })
+gsap.from(".description",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger: ".description"
+})
 gsap.from(".image-1",{
     opacity:0,
     duration:2,

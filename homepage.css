@@ -326,7 +326,7 @@
     border: 2px solid hsl(207,64%,48%);
 }
 
-@media only screen and (min-width:1800px) and (max-width:3000px){
+@media only screen and (min-width:2000px) and (max-width:3000px){
     .move-1{
         position:relative;
         left:650px;
@@ -343,7 +343,7 @@
         position:relative;
         bottom:15px;
     }
-    .description{
+    .description-2{
         text-align:start;
     }
     .image-4{
@@ -357,11 +357,70 @@
         top:30px!important;
     }
 }
+@media only screen and (min-width:1800px) and (max-width:1990px){
+    .move-1{
+        position:relative;
+        left:300px;
+    }
+    .description-2{
+        text-align:start;
+    }
+    .image-4{
+        position:relative;
+        left: 40px;
+        width: 450px;
+        height:230px;
+    }
+    footer .footer-div{
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+    footer h3{
+        position:relative;
+        top:40px;
+    }
+    .paragraph-footer{
+        position:relative;
+        bottom:15px;
+        font-size: 22px;
+    }
+    .btn-3{
+        position:relative;
+        top:50px;
+    }
+}
+@media only screen and (min-width:1559px) and (max-width:1750px){
+    .description-2{
+        text-align:start;
+    }
+    .image-4{
+        position:relative;
+        left: 40px;
+        width: 450px;
+        height:250px;
+    }
+    footer .footer-div{
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+    footer h3{
+        position:relative;
+        top:40px;
+    }
+    .paragraph-footer{
+        position:relative;
+        bottom:15px;
+        font-size: 22px;
+    }
+    .btn-3{
+        position:relative;
+        top:50px;
+    }
+}   
 @media only screen and (min-width:1200px) and (max-width:1440px){
     .image-3{
         width: 1400px;
         height: 400px;
-        
         background-repeat:none;
         border-radius: 10px;
     }
@@ -402,7 +461,7 @@
         position:relative;
         right:155px;
     }
-    .description{
+    .description-2{
         text-align:start;
     }
     .image-4{
@@ -456,7 +515,7 @@
         position:relative;
         right:90px;
     }
-    .description{
+    .description-2{
         text-align:start;
     }
     .image-4{
@@ -495,7 +554,7 @@
         position:relative;
         right:15px;
     }
-    .description{
+    .description-2{
         text-align:start;
     }
     .image-4{
@@ -565,7 +624,7 @@
         position:relative;
         right:65px;
     }
-    .description{
+    .description-2{
         margin-top:30px;
         text-align: start;
     }
@@ -596,7 +655,7 @@
         position:relative;
         left:10px;
     }
-    .description{
+    .description-2{
         margin-top:30px;
         text-align: start;
     }
