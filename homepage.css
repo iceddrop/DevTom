@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker&family=Rubik:wght@300&display=swap');
 *{
     margin: 0;
+}
+.fa-moon{
+    cursor:pointer;
 }
 .bg{
     background-color: whitesmoke;
@@ -42,6 +46,11 @@
 .section-1 p{
     font-size: 22px;
     font-family: didact gothic;
+}
+.image-stripy{
+    width:280px;
+    height:280px;
+    padding-bottom:40px;
 }
 .image-1{
     width: 300px;
@@ -246,8 +255,7 @@
       position:relative;
       top:40px;
       background:transparent;
-      border-color: hsl(207,64%,48%);
-      border-style:solid;
+      border:2px solid hsl(207,64%,48%);
       border-radius:30px;
       color:white;
       padding:15px 35px 15px 35px;
@@ -259,6 +267,51 @@
       color:white;
       background-image:linear-gradient(320deg,hsl(207,83%,75%) 0%, hsl(207,64%,48%));
       border-style: none;
+  }
+  .red-gem{
+      padding-bottom:100px;
+  }
+  .red-gem h1{
+    font-family: play;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .paragraph-5{
+    font-size: 22px;
+    font-family: didact gothic;
+    color: hsl(230, 69%, 10%);
+  }
+  .redgem-div{
+    padding:40px 50px 20px 50px;
+    margin:auto;
+    height:290px;
+    border:1px solid whitesmoke;
+    border-radius: 15px;
+  }
+  .redgem-image{
+      width:60px;
+      height:60px;
+      border-radius: 50%;
+  }
+  .redgem-info{
+      font-family:didact gothic;
+      font-weight: 500;
+  }
+  .title-5{
+      position: relative;
+      left:10px;
+      align-self:center;
+      font-size:20px;
+      font-family:Blinker;
+      font-weight:bold;
+  }
+  .redgem-link{
+      font-family:didact gothic;
+      font-weight: bold;
+  }
+  .redgem-link:hover{
+      text-align: none;
+      text-decoration: none;
   }
   .paragraph-footer2{
       color: hsl(0, 0%, 93%);
@@ -356,6 +409,13 @@
         position:relative;
         top:30px!important;
     }
+    .redgem-div{
+        width:400px;
+    }
+    .redgem-logo{
+        position:relative;
+        left:40px;
+    }
 }
 @media only screen and (min-width:1800px) and (max-width:1990px){
     .move-1{
@@ -388,6 +448,13 @@
         position:relative;
         top:50px;
     }
+    .redgem-div{
+        width:400px;
+    }
+    .redgem-logo{
+        position:relative;
+        left:40px;
+    }
 }
 @media only screen and (min-width:1559px) and (max-width:1750px){
     .description-2{
@@ -415,6 +482,13 @@
     .btn-3{
         position:relative;
         top:50px;
+    }
+    .redgem-div{
+        width:400px;
+    }
+    .redgem-logo{
+        position:relative;
+        left:40px;
     }
 }   
 @media only screen and (min-width:1200px) and (max-width:1440px){
@@ -470,6 +544,13 @@
         width: 450px;
         height:250px;
     }
+    .redgem-div{
+        width:400px;
+    }
+    .redgem-logo{
+        position:relative;
+        left:40px;
+    }
 }
 @media only screen and (min-width:769px) and (max-width:1024px) {
     .image-3{
@@ -524,6 +605,13 @@
         width: 350px;
         height:220px;
     }
+    .redgem-div{
+        width:400px;
+    }
+    .redgem-logo{
+        position:relative;
+        left:40px;
+    }
 }
 @media only screen and (min-width:767px) and (max-width:769px){
     .btn-1{
@@ -563,6 +651,13 @@
         width: 330px;
         height:200px;
     }
+    .redgem-div{
+        width:400px;
+    }
+    .redgem-logo{
+        position:relative;
+        left:40px;
+    }
 }
 @media only screen and (min-width:539px) and (max-width:540px) {
     .image-3{
@@ -594,6 +689,16 @@
     }
     .move-2{
         transform:translateX(30px);
+    }
+    .redgem-logo{
+        position:relative;
+        left: 35px !important;
+    }
+}
+@media only screen and (min-width:411px) and (max-width:415px){
+    .redgem-logo{
+        position:relative;
+        left:30px!important;
     }
 }
 @media only screen and (min-width:360px) and (max-width:425px){
@@ -628,7 +733,10 @@
         margin-top:30px;
         text-align: start;
     }
-    
+    .redgem-logo{
+        position:relative;
+        left:5px;
+    }
 }
 @media only screen and (min-width:319px) and (max-width:321px){
     .section-1 h1{
@@ -659,4 +767,9 @@
         margin-top:30px;
         text-align: start;
     }
+    .redgem-logo{
+        position:relative;
+        right:12px;
+    }
+
 }

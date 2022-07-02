@@ -107,3 +107,43 @@ gsap.from(".swiper",{
     y:100,
     scrollTrigger: ".swiper",
 })
+gsap.from(".title-6",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger:".title-6",
+})
+gsap.from(".paragraph-5",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger:".paragraph-5",
+})
+gsap.from(".redgem-div",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger:".redgem-div",
+})
+gsap.from(".redgem-logo",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger:".redgem-logo",
+})
+gsap.from(".redgem-info",{
+    opacity:0,
+    duration:2,
+    y:100,
+    scrollTrigger:".redgem-info",
+})
+gsap.from(".redgem-link",{
+    opacity:0,
+    duration:5,
+    y:100,
+    scrollTrigger:".redgem-link",
+})
+function darkMode(){
+    document.getElementById("bg").style.backgroundColor = "#121212";
+    document.getElementById("main-title").style.backgroundColor = "white";
+}
